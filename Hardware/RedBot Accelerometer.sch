@@ -5360,10 +5360,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pin name="SCL2" x="15.24" y="2.54" length="middle" rot="R180"/>
 <pin name="SDA2" x="15.24" y="0" length="middle" rot="R180"/>
 <pin name="GND" x="-15.24" y="-2.54" length="middle"/>
+<text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PCA9306">
+<deviceset name="PCA9306" prefix="U" uservalue="yes">
 <description>Bidirectional I2C level shifter.&lt;br&gt;
 NOT compatible with all available part number pinout schemes- DOUBLE CHECK!!!</description>
 <gates>
@@ -5382,7 +5384,9 @@ NOT compatible with all available part number pinout schemes- DOUBLE CHECK!!!</d
 <connect gate="G$1" pin="VREF2" pad="7"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-10023"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5519,7 +5523,9 @@ http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8452Q.pdf</descriptio
 <connect gate="G$1" pin="VDDIO" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-10769"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6046,7 +6052,7 @@ Pogo pins- HW-11044</description>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="SK"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="U$1" library="SparkFun-DigitalIC" deviceset="PCA9306" device=""/>
+<part name="U3" library="SparkFun-DigitalIC" deviceset="PCA9306" device="" value="PCA9306"/>
 <part name="U1" library="SparkFun-Sensors" deviceset="MMA8452Q" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="" value="10k"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="" value="4.7uF"/>
@@ -6079,10 +6085,10 @@ Pogo pins- HW-11044</description>
 <instance part="GND1" gate="1" x="76.2" y="63.5"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="LOGO1" gate="G$1" x="33.02" y="43.18"/>
-<instance part="LOGO2" gate="G$1" x="30.48" y="38.1"/>
+<instance part="LOGO1" gate="G$1" x="241.3" y="17.78"/>
+<instance part="LOGO2" gate="G$1" x="233.68" y="45.72"/>
 <instance part="C1" gate="G$1" x="45.72" y="73.66"/>
-<instance part="U$1" gate="G$1" x="149.86" y="83.82"/>
+<instance part="U3" gate="G$1" x="149.86" y="83.82"/>
 <instance part="U1" gate="G$1" x="88.9" y="78.74"/>
 <instance part="R1" gate="G$1" x="109.22" y="71.12"/>
 <instance part="C2" gate="G$1" x="55.88" y="73.66"/>
@@ -6143,7 +6149,7 @@ Pogo pins- HW-11044</description>
 <wire x1="127" y1="147.32" x2="132.08" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="134.62" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="81.28" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
@@ -6198,7 +6204,7 @@ Pogo pins- HW-11044</description>
 <wire x1="116.84" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VREF1"/>
+<pinref part="U3" gate="G$1" pin="VREF1"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 <wire x1="134.62" y1="88.9" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="88.9" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
@@ -6260,11 +6266,11 @@ Pogo pins- HW-11044</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="EN"/>
+<pinref part="U3" gate="G$1" pin="EN"/>
 <wire x1="165.1" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="91.44" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VREF2"/>
+<pinref part="U3" gate="G$1" pin="VREF2"/>
 <wire x1="165.1" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="88.9" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 <junction x="167.64" y="91.44"/>
@@ -6275,7 +6281,7 @@ Pogo pins- HW-11044</description>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCL2"/>
+<pinref part="U3" gate="G$1" pin="SCL2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="86.36" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="86.36" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
@@ -6291,7 +6297,7 @@ Pogo pins- HW-11044</description>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SDA2"/>
+<pinref part="U3" gate="G$1" pin="SDA2"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="83.82" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
@@ -6307,7 +6313,7 @@ Pogo pins- HW-11044</description>
 </net>
 <net name="SCL1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCL1"/>
+<pinref part="U3" gate="G$1" pin="SCL1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="86.36" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
@@ -6318,7 +6324,7 @@ Pogo pins- HW-11044</description>
 </net>
 <net name="SDA1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SDA1"/>
+<pinref part="U3" gate="G$1" pin="SDA1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="83.82" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
