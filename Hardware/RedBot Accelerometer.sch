@@ -6078,6 +6078,8 @@ Pogo pins- HW-11044</description>
 <sheets>
 <sheet>
 <plain>
+<text x="237.998" y="6.35" size="3.81" layer="91">10</text>
+<text x="151.13" y="6.35" size="3.81" layer="91">M. Hord</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="129.54" y="154.94"/>

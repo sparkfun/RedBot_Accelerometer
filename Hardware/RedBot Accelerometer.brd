@@ -141,7 +141,10 @@ Board</text>
 <text x="5.08" y="3.81" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center-right">5V</text>
 <text x="3.81" y="7.62" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">SCL</text>
 <text x="1.27" y="7.62" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">SDA</text>
-<text x="1.651" y="14.986" size="1.016" layer="16" font="vector" ratio="15" rot="MR270">v01</text>
+<text x="1.651" y="14.986" size="1.016" layer="16" font="vector" ratio="15" rot="MR270">v10</text>
+<text x="-46.99" y="1.27" size="1.778" layer="27" font="vector" ratio="15">M. Hord</text>
+<text x="1.27" y="7.62" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">A4</text>
+<text x="3.81" y="7.62" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">A5</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -681,11 +684,11 @@ design rules under a new name.</description>
 <element name="R3" library="SparkFun-Resistors" package="0402-RES" value="1k" x="6.223" y="16.002" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="-24.257" y="36.322" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0402-RES" value="1k" x="1.27" y="8.89">
-<attribute name="PROD_ID" value="RES-07856" x="35.56" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="R4" library="SparkFun-Resistors" package="0402-RES" value="1k" x="1.27" y="9.271">
+<attribute name="PROD_ID" value="RES-07856" x="35.56" y="-11.049" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" package="0402-RES" value="1k" x="3.81" y="8.89" rot="R180">
-<attribute name="PROD_ID" value="RES-07856" x="-34.29" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R5" library="SparkFun-Resistors" package="0402-RES" value="1k" x="3.81" y="9.271" rot="R180">
+<attribute name="PROD_ID" value="RES-07856" x="-34.29" y="29.591" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U2" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5205-3.3V" x="8.89" y="5.08">
 <attribute name="PROD_ID" value="VREG-00822" x="36.83" y="-6.35" size="1.778" layer="27" display="off"/>
@@ -716,8 +719,8 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="6"/>
 <polygon width="0.2032" layer="1" isolate="0.3048">
 <vertex x="0" y="17.78"/>
-<vertex x="12.7" y="17.78"/>
-<vertex x="12.7" y="0"/>
+<vertex x="11.43" y="17.78"/>
+<vertex x="11.43" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
 <via x="6.604" y="14.224" extent="1-16" drill="0.381"/>
@@ -733,8 +736,8 @@ design rules under a new name.</description>
 <wire x1="1.77" y1="13.343" x2="2.286" y2="12.827" width="0.2032" layer="1"/>
 <wire x1="0.635" y1="13.35" x2="1.763" y2="13.35" width="0.2032" layer="1"/>
 <wire x1="1.763" y1="13.35" x2="2.286" y2="12.827" width="0.2032" layer="1"/>
-<wire x1="9.54" y1="9.525" x2="10.414" y2="9.525" width="0.2032" layer="1"/>
-<via x="10.414" y="9.525" extent="1-16" drill="0.381"/>
+<wire x1="9.54" y1="9.525" x2="10.541" y2="9.525" width="0.2032" layer="1"/>
+<via x="10.541" y="9.525" extent="1-16" drill="0.381"/>
 <wire x1="9.39" y1="11.425" x2="9.39" y2="12.2" width="0.2032" layer="1"/>
 <wire x1="9.39" y1="12.2" x2="8.89" y2="12.7" width="0.2032" layer="1"/>
 <wire x1="8.39" y1="11.425" x2="8.39" y2="12.2" width="0.2032" layer="1"/>
@@ -765,10 +768,10 @@ design rules under a new name.</description>
 <wire x1="8.382" y1="10.414" x2="10.668" y2="10.414" width="0.2032" layer="1"/>
 <wire x1="10.668" y1="10.414" x2="11.049" y2="10.795" width="0.2032" layer="1"/>
 <wire x1="10.165" y1="12.2" x2="11.041" y2="12.2" width="0.2032" layer="1"/>
-<wire x1="9.89" y1="13.975" x2="9.89" y2="14.843" width="0.2032" layer="1"/>
-<wire x1="9.89" y1="14.843" x2="10.16" y2="15.113" width="0.2032" layer="1"/>
-<wire x1="11.049" y1="17.018" x2="11.049" y2="15.113" width="0.2032" layer="1"/>
-<wire x1="11.049" y1="15.113" x2="11.049" y2="12.192" width="0.2032" layer="1"/>
+<wire x1="9.89" y1="13.975" x2="9.89" y2="14.716" width="0.2032" layer="1"/>
+<wire x1="9.89" y1="14.716" x2="10.16" y2="14.986" width="0.2032" layer="1"/>
+<wire x1="11.049" y1="17.018" x2="11.049" y2="14.986" width="0.2032" layer="1"/>
+<wire x1="11.049" y1="14.986" x2="11.049" y2="12.192" width="0.2032" layer="1"/>
 <wire x1="11.049" y1="12.192" x2="11.049" y2="10.795" width="0.2032" layer="1"/>
 <wire x1="11.041" y1="12.2" x2="11.049" y2="12.192" width="0.2032" layer="1"/>
 <wire x1="5.588" y1="17.018" x2="4.572" y2="17.018" width="0.2032" layer="1"/>
@@ -787,7 +790,7 @@ design rules under a new name.</description>
 <wire x1="11.049" y1="17.018" x2="10.795" y2="17.272" width="0.2032" layer="1"/>
 <wire x1="10.795" y1="17.272" x2="5.842" y2="17.272" width="0.2032" layer="1"/>
 <wire x1="5.842" y1="17.272" x2="5.588" y2="17.018" width="0.2032" layer="1"/>
-<wire x1="10.16" y1="15.113" x2="11.049" y2="15.113" width="0.2032" layer="1"/>
+<wire x1="10.16" y1="14.986" x2="11.049" y2="14.986" width="0.2032" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="U2" pad="1"/>
@@ -797,9 +800,9 @@ design rules under a new name.</description>
 <contactref element="R5" pad="2"/>
 <contactref element="JP1" pad="3"/>
 <contactref element="JP1" pad="4"/>
-<wire x1="1.92" y1="8.89" x2="2.54" y2="8.89" width="0.2032" layer="1"/>
-<wire x1="2.54" y1="8.89" x2="3.16" y2="8.89" width="0.2032" layer="1"/>
-<wire x1="2.54" y1="8.89" x2="2.54" y2="3.81" width="0.2032" layer="1"/>
+<wire x1="1.92" y1="9.271" x2="2.54" y2="9.271" width="0.2032" layer="1"/>
+<wire x1="2.54" y1="9.271" x2="3.16" y2="9.271" width="0.2032" layer="1"/>
+<wire x1="2.54" y1="9.271" x2="2.54" y2="3.81" width="0.2032" layer="1"/>
 <wire x1="2.54" y1="3.81" x2="1.27" y2="3.81" width="0.2032" layer="1"/>
 <wire x1="2.54" y1="3.81" x2="3.81" y2="3.81" width="0.2032" layer="1"/>
 <wire x1="4.445" y1="12.05" x2="4.445" y2="11.176" width="0.2032" layer="1"/>
@@ -840,12 +843,12 @@ design rules under a new name.</description>
 <contactref element="U3" pad="6"/>
 <contactref element="R5" pad="1"/>
 <contactref element="JP1" pad="2"/>
-<wire x1="2.27" y1="11.32" x2="2.27" y2="10.303" width="0.2032" layer="1"/>
-<wire x1="2.27" y1="10.303" x2="2.413" y2="10.16" width="0.2032" layer="1"/>
-<wire x1="2.413" y1="10.16" x2="4.318" y2="10.16" width="0.2032" layer="1"/>
-<wire x1="4.318" y1="10.16" x2="4.46" y2="10.018" width="0.2032" layer="1"/>
-<wire x1="4.46" y1="8.89" x2="4.46" y2="10.018" width="0.2032" layer="1"/>
-<wire x1="4.46" y1="8.89" x2="4.46" y2="8.27" width="0.2032" layer="1"/>
+<wire x1="2.27" y1="11.32" x2="2.27" y2="10.557" width="0.2032" layer="1"/>
+<wire x1="2.27" y1="10.557" x2="2.54" y2="10.414" width="0.2032" layer="1"/>
+<wire x1="2.54" y1="10.414" x2="4.318" y2="10.414" width="0.2032" layer="1"/>
+<wire x1="4.318" y1="10.414" x2="4.46" y2="10.272" width="0.2032" layer="1"/>
+<wire x1="4.46" y1="9.271" x2="4.46" y2="10.272" width="0.2032" layer="1"/>
+<wire x1="4.46" y1="9.271" x2="4.46" y2="8.27" width="0.2032" layer="1"/>
 <wire x1="4.46" y1="8.27" x2="4.318" y2="8.128" width="0.2032" layer="1"/>
 <wire x1="4.318" y1="8.128" x2="3.937" y2="8.128" width="0.2032" layer="1"/>
 <wire x1="3.937" y1="8.128" x2="3.81" y2="8.001" width="0.2032" layer="1"/>
@@ -855,12 +858,12 @@ design rules under a new name.</description>
 <contactref element="U3" pad="5"/>
 <contactref element="R4" pad="1"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="1.77" y1="11.32" x2="1.77" y2="10.279" width="0.2032" layer="1"/>
-<wire x1="1.77" y1="10.279" x2="1.651" y2="10.16" width="0.2032" layer="1"/>
-<wire x1="1.651" y1="10.16" x2="0.762" y2="10.16" width="0.2032" layer="1"/>
-<wire x1="0.762" y1="10.16" x2="0.62" y2="10.018" width="0.2032" layer="1"/>
-<wire x1="0.62" y1="8.89" x2="0.62" y2="10.018" width="0.2032" layer="1"/>
-<wire x1="0.62" y1="8.89" x2="0.62" y2="8.143" width="0.2032" layer="1"/>
+<wire x1="1.77" y1="11.32" x2="1.77" y2="10.533" width="0.2032" layer="1"/>
+<wire x1="1.77" y1="10.533" x2="1.651" y2="10.414" width="0.2032" layer="1"/>
+<wire x1="1.651" y1="10.414" x2="0.762" y2="10.414" width="0.2032" layer="1"/>
+<wire x1="0.762" y1="10.414" x2="0.62" y2="10.272" width="0.2032" layer="1"/>
+<wire x1="0.62" y1="9.271" x2="0.62" y2="10.272" width="0.2032" layer="1"/>
+<wire x1="0.62" y1="9.271" x2="0.62" y2="8.143" width="0.2032" layer="1"/>
 <wire x1="0.62" y1="8.143" x2="0.762" y2="8.001" width="0.2032" layer="1"/>
 <wire x1="0.762" y1="8.001" x2="1.143" y2="8.001" width="0.2032" layer="1"/>
 <wire x1="1.143" y1="8.001" x2="1.27" y2="7.874" width="0.2032" layer="1"/>
@@ -908,6 +911,41 @@ design rules under a new name.</description>
 <wire x1="9.144" y1="14.859" x2="9.39" y2="14.613" width="0.2032" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="3,16,ee92c29a5bcd77c5"/>
+<approved hash="1,20,327e1e421c4c3070"/>
+<approved hash="1,20,622bc217c210622c"/>
+<approved hash="1,20,83204b1c4b8983b5"/>
+<approved hash="1,20,4327431b4111412d"/>
+<approved hash="1,20,7121bd1dbf0d7331"/>
+<approved hash="1,20,8a22b61eb40e8832"/>
+<approved hash="1,20,8a8ab6b6b7b68b8a"/>
+<approved hash="1,20,833ec302c110812c"/>
+<approved hash="1,20,4f264b1a48964caa"/>
+<approved hash="4,1,4bfe58d3592173f0"/>
+<approved hash="4,1,4c61274a2778759f"/>
+<approved hash="4,1,9a85e17dd94184a9"/>
+<approved hash="5,1,99bba07d1ba23f1e"/>
+<approved hash="5,1,9a4aa07d1ba23cef"/>
+<approved hash="5,1,d5e6926bd416e1f6"/>
+<approved hash="5,1,22131a6adc7f9e63"/>
+<approved hash="5,1,46eb016ba8169dfb"/>
+<approved hash="5,1,b11e896aa07fe26e"/>
+<approved hash="5,1,0018386aa07fe268"/>
+<approved hash="5,1,f7edb06ba8169dfd"/>
+<approved hash="5,1,8f1bb76aa47fe66b"/>
+<approved hash="5,1,78ee3f6bac1699fe"/>
+<approved hash="5,1,253713e52aa23f12"/>
+<approved hash="5,1,26c613e52aa23ce3"/>
+<approved hash="4,1,4a0295638a9f4c2a"/>
+<approved hash="4,1,e39c266cd799eaf2"/>
+<approved hash="4,1,cb0295608b8bcd37"/>
+<approved hash="4,1,4a02957b8b4f4c6a"/>
+<approved hash="4,1,4b1d93188d4f4d6a"/>
+<approved hash="4,1,b9b966bc78e2bf8e"/>
+<approved hash="4,1,042f5c4ec2bd0258"/>
+<approved hash="4,1,50168f5790a3565e"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
