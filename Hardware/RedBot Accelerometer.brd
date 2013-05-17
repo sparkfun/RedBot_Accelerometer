@@ -6,37 +6,37 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -243,6 +243,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -703,6 +706,8 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-00810" x="20.955" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="2X3-NS" value="" x="2.54" y="3.81" rot="R270"/>
+<element name="FID1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="0.5842" y="17.1958"/>
+<element name="FID2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="10.6934" y="0.6604"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -727,8 +732,8 @@ design rules under a new name.</description>
 <via x="8.89" y="12.7" extent="1-16" drill="0.381"/>
 <polygon width="0.2032" layer="16" isolate="0.3048">
 <vertex x="0" y="17.78"/>
-<vertex x="12.7" y="17.78"/>
-<vertex x="12.7" y="0"/>
+<vertex x="11.43" y="17.78"/>
+<vertex x="11.43" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
 <via x="2.286" y="12.827" extent="1-16" drill="0.381"/>
@@ -911,41 +916,6 @@ design rules under a new name.</description>
 <wire x1="9.144" y1="14.859" x2="9.39" y2="14.613" width="0.2032" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,16,ee92c29a5bcd77c5"/>
-<approved hash="1,20,327e1e421c4c3070"/>
-<approved hash="1,20,622bc217c210622c"/>
-<approved hash="1,20,83204b1c4b8983b5"/>
-<approved hash="1,20,4327431b4111412d"/>
-<approved hash="1,20,7121bd1dbf0d7331"/>
-<approved hash="1,20,8a22b61eb40e8832"/>
-<approved hash="1,20,8a8ab6b6b7b68b8a"/>
-<approved hash="1,20,833ec302c110812c"/>
-<approved hash="1,20,4f264b1a48964caa"/>
-<approved hash="4,1,4bfe58d3592173f0"/>
-<approved hash="4,1,4c61274a2778759f"/>
-<approved hash="4,1,9a85e17dd94184a9"/>
-<approved hash="5,1,99bba07d1ba23f1e"/>
-<approved hash="5,1,9a4aa07d1ba23cef"/>
-<approved hash="5,1,d5e6926bd416e1f6"/>
-<approved hash="5,1,22131a6adc7f9e63"/>
-<approved hash="5,1,46eb016ba8169dfb"/>
-<approved hash="5,1,b11e896aa07fe26e"/>
-<approved hash="5,1,0018386aa07fe268"/>
-<approved hash="5,1,f7edb06ba8169dfd"/>
-<approved hash="5,1,8f1bb76aa47fe66b"/>
-<approved hash="5,1,78ee3f6bac1699fe"/>
-<approved hash="5,1,253713e52aa23f12"/>
-<approved hash="5,1,26c613e52aa23ce3"/>
-<approved hash="4,1,4a0295638a9f4c2a"/>
-<approved hash="4,1,e39c266cd799eaf2"/>
-<approved hash="4,1,cb0295608b8bcd37"/>
-<approved hash="4,1,4a02957b8b4f4c6a"/>
-<approved hash="4,1,4b1d93188d4f4d6a"/>
-<approved hash="4,1,b9b966bc78e2bf8e"/>
-<approved hash="4,1,042f5c4ec2bd0258"/>
-<approved hash="4,1,50168f5790a3565e"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
