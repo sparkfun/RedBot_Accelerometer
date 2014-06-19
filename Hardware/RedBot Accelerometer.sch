@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1521,15 +1521,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="FIDUCIAL-1.5X3">
-<circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
-<smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
-</package>
 <package name="FIDUCIAL-1X2">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="FIDUCIAL-1X2.5">
-<circle x="0" y="0" radius="0.9" width="1.27" layer="29"/>
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
 <package name="MICRO-FIDUCIAL">
@@ -5282,17 +5274,7 @@ Various fiducial points for machine vision alignment.</description>
 <gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1.5X3" package="FIDUCIAL-1.5X3">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="1X2" package="FIDUCIAL-1X2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1X2.5" package="FIDUCIAL-1X2.5">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6897,8 +6879,8 @@ Pogo pins- HW-11044</description>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE_SMD"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6947,8 +6929,8 @@ Female</text>
 <instance part="JP2" gate="G$1" x="223.52" y="124.46"/>
 <instance part="GND6" gate="1" x="210.82" y="111.76"/>
 <instance part="SUPPLY8" gate="G$1" x="210.82" y="137.16"/>
-<instance part="FID1" gate="G$1" x="172.72" y="38.1"/>
-<instance part="FID2" gate="G$1" x="177.8" y="38.1"/>
+<instance part="FID1" gate="G$1" x="241.3" y="33.02"/>
+<instance part="FID2" gate="G$1" x="241.3" y="25.4"/>
 </instances>
 <busses>
 </busses>
