@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1521,7 +1521,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<<<<<<< HEAD
 <package name="FIDUCIAL-1.5X3">
 <circle x="0" y="0" radius="0.9055" width="1.27" layer="29"/>
 <smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
@@ -1533,11 +1532,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <circle x="0" y="0" radius="0.9" width="1.27" layer="29"/>
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
-=======
-<package name="FIDUCIAL-1X2">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-</package>
->>>>>>> hw_dev
 <package name="MICRO-FIDUCIAL">
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
@@ -5288,27 +5282,21 @@ Various fiducial points for machine vision alignment.</description>
 <gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
 </gates>
 <devices>
-<<<<<<< HEAD
 <device name="1.5X3" package="FIDUCIAL-1.5X3">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-=======
->>>>>>> hw_dev
 <device name="1X2" package="FIDUCIAL-1X2">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<<<<<<< HEAD
 <device name="1X2.5" package="FIDUCIAL-1X2.5">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-=======
->>>>>>> hw_dev
 <device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
@@ -6906,16 +6894,11 @@ Pogo pins- HW-11044</description>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03X2" device="SMT"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<<<<<<< HEAD
-<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-=======
 <part name="JP2" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE_SMD"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
->>>>>>> hw_dev
+<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -6958,22 +6941,14 @@ Female</text>
 <instance part="R6" gate="G$1" x="167.64" y="99.06" rot="R90"/>
 <instance part="C4" gate="G$1" x="167.64" y="76.2"/>
 <instance part="GND4" gate="1" x="167.64" y="68.58"/>
-<<<<<<< HEAD
-<instance part="JP1" gate="G$1" x="200.66" y="144.78"/>
-<instance part="SUPPLY7" gate="G$1" x="187.96" y="157.48"/>
-<instance part="GND5" gate="1" x="187.96" y="132.08"/>
-<instance part="FID1" gate="G$1" x="243.84" y="30.48"/>
-<instance part="FID2" gate="G$1" x="243.84" y="25.4"/>
-=======
 <instance part="JP1" gate="G$1" x="223.52" y="162.56"/>
 <instance part="SUPPLY7" gate="G$1" x="210.82" y="175.26"/>
 <instance part="GND5" gate="1" x="210.82" y="149.86"/>
 <instance part="JP2" gate="G$1" x="223.52" y="124.46"/>
 <instance part="GND6" gate="1" x="210.82" y="111.76"/>
 <instance part="SUPPLY8" gate="G$1" x="210.82" y="137.16"/>
-<instance part="FID1" gate="G$1" x="241.3" y="33.02"/>
-<instance part="FID2" gate="G$1" x="241.3" y="25.4"/>
->>>>>>> hw_dev
+<instance part="FID1" gate="G$1" x="172.72" y="38.1"/>
+<instance part="FID2" gate="G$1" x="177.8" y="38.1"/>
 </instances>
 <busses>
 </busses>
