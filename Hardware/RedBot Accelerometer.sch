@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -6903,7 +6903,7 @@ Pogo pins- HW-11044</description>
 <sheets>
 <sheet>
 <plain>
-<text x="237.998" y="6.35" size="3.81" layer="94">v11</text>
+<text x="237.998" y="6.35" size="3.81" layer="94">v12</text>
 <text x="171.45" y="11.43" size="2.54" layer="94">M. Hord</text>
 <text x="236.22" y="157.48" size="1.27" layer="97">Top side
 connector-
