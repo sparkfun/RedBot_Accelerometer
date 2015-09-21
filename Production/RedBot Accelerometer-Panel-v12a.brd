@@ -10779,6 +10779,12 @@ design rules under a new name.</description>
 <element name="E$4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="124.587" y="151.638"/>
 <element name="E$5" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="124.587" y="260.858" rot="R180"/>
 <element name="E$6" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="4.572" y="149.606"/>
+<element name="E$7" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="4.572" y="11.938" rot="MR0"/>
+<element name="E$8" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="124.587" y="13.97" rot="MR0"/>
+<element name="E$9" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="124.587" y="123.19" rot="MR180"/>
+<element name="E$10" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="124.587" y="151.638" rot="MR0"/>
+<element name="E$11" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="4.572" y="149.606" rot="MR0"/>
+<element name="E$12" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="124.587" y="260.858" rot="MR180"/>
 </elements>
 <signals>
 <signal name="GND">
