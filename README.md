@@ -1,8 +1,8 @@
 RedBot Accelerometer
 ==================
+[![SparkFun RedBot Accelerometer](https://cdn.sparkfun.com/assets/parts/9/2/5/6/12589-SparkFun_RedBot_Sensor_-_Accelerometer-01.jpg)](https://www.sparkfun.com/products/12589)
 
-[![RedBot Accelerometer](https://cdn.sparkfun.com//assets/parts/9/2/5/6/12589-01.jpg)  
-*RedBot Accelerometer*](https://www.sparkfun.com/products/12589)
+[*SparkFun RedBot Accelerometer*](https://www.sparkfun.com/products/12589)
 
 The accelerometer sensor is an add-on for the RedBot kit that provides bump and motion detection. 
 It is an I<sup>2</sup>C, and is a 3-axis sensor.
@@ -13,6 +13,10 @@ Repository Contents
 * **/Hardware** - Eagle PCB layout files
 * **/Production** - Pogo testbed files
 
+Documentation
+-------------------
+* **[Assembly Guide for RedBot with Shadow Chassis](https://learn.sparkfun.com/tutorials/assembly-guide-for-redbot-with-shadow-chassis)**
+* **[Experiment Guide for RedBot with Shadow Chassis](https://learn.sparkfun.com/tutorials/experiment-guide-for-redbot-with-shadow-chassis)**
 
 License Information
 -------------------
